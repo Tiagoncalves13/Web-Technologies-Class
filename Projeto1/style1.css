@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('images/galeria3.png');
+    background-size: cover;
+}
+
+.login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(239, 225, 213, 0.7); /* Cor de fundo do formulário */
+    padding: 90px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.login {
+    text-align: center;
+}
+
+.login h2 {
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.inputbox {
+    margin-bottom: 20px;
+}
+
+.inputbox input {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a9540a;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.bottom-content {
+    margin-top: 20px;
+}
+
+.bottom-content a {
+    color: #a9540a;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.bottom-content a:hover {
+    text-decoration: underline;
+}
