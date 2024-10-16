@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Exercicio 7</title>
+</head>
+<body>
+	<h1>Registation Form</h1>
+	<form action="form.html" method="post">
+		<fieldset>
+			<legend>Personal Info</legend>
+			<label for="name">Name
+				<input type="text" id="name" pattern="[A-Z][a-z]+\s[A-Z][a-z]+" required>
+			</label><br>
+			<label for="member">Member
+				<input type="radio" name="memebership" id="member" value="member">
+			</label>
+			<label for="non-member">Non Member
+				<input type="radio" name="memebership" id="non-member" value="non-member">
+			</label><br>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email">
+		</fieldset>
+		<fieldset>
+			<legend>Reservation Info</legend>
+			<label for="facility">
+				Facility
+				<select name="facility" id="facility">
+					<option value="badminton">Badminton</option>
+					<option value="squash">Squash</option>
+					<option value="racquetball">Racquetball</option>
+				</select>
+			</label><br>
+			<label for="reservation">
+				Select a reservation date and time
+				<input type="datetime-local" name="reservation" id="reservation">
+			</label><br>
+			<label for="policy">
+				<input type="checkbox" name="policy" id="policy">
+				I agree to the club's reservation policy
+			</label>
+		</fieldset>
+		<input type="submit">
+	</form>
+</body>
+</html>
