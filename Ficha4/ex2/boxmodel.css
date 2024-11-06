@@ -1,7 +1,0 @@
-/* Estilos para o div no arquivo "box-model.html" */
-div {
-    width: 200px;               /* (a) Largura de 200px */
-    padding: 25px;              /* (b) Padding de 25px */
-    border: 25px solid navy;    /* (c) Borda de 25px, tipo sólido e cor navy */
-    margin: 25px;               /* (d) Margem de 25px */
-  }
