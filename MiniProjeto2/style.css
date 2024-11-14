@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    color: #fff;
+    color: #e9e8e8;
     overflow-x: hidden;
 }
 
@@ -74,23 +74,23 @@ body {
 
 /* Fundo específico para cada seção */
 .home {
-    background-image: url('hero.jpg'); /* Imagem de entrada */
+    background-image: url('images/galeria3.jpg'); /* Imagem de entrada */
 }
 
 .about {
-    background-image: url('about.jpg'); /* Imagem da seção sobre */
+    background-image: url('images/galeria2.jpg'); /* Imagem da seção sobre */
 }
 
 .menu {
-    background-image: url('menu.jpg'); /* Imagem da seção de menu */
+    background-image: url('images/galeria1.jpg'); /* Imagem da seção de menu */
 }
 
 .gallery {
-    background-image: url('gallery.jpg'); /* Imagem da galeria */
+    background-image: url('images/galeria.jpg'); /* Imagem da galeria */
 }
 
 .contact {
-    background-image: url('contact.jpg'); /* Imagem de contato */
+    background-image: url('images/galeria5.jpg'); /* Imagem de contato */
 }
 
 /* Layout do menu */
