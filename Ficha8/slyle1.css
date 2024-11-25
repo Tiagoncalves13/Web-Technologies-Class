@@ -1,0 +1,44 @@
+/* Estilo base */
+body {
+    background-color: #FFFFFF;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  section {
+    padding: 80px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 colunas no desktop */
+    gap: 60px; /* Espaçamento entre itens da grelha */
+  }
+  
+  .item {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    background-color: #f0f0f0;
+    height: 100px; /* Altura ajustável conforme necessário */
+    overflow: hidden; /* Garante que imagens grandes não saiam do contêiner */
+  }
+  
+  .item img {
+    max-width: 100%; /* Imagem não ultrapassa a largura do item */
+    max-height: 100%; /* Imagem não ultrapassa a altura do item */
+    object-fit: cover; /* Ajusta a imagem para cobrir o espaço */
+  }
+  
+  /* Layout responsivo */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr; /* Muda para 1 coluna no mobile */
+      gap: 20px; /* Reduz o espaçamento para mobile */
+    }
+  
+    .item {
+      height: 80px; /* Ajusta altura para mobile */
+    }
+  }
+  

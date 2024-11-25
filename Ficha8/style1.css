@@ -1,0 +1,58 @@
+/* Estilo base */
+body {
+    background-color: #FFFFFF;
+    color: #000000;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+  }
+  
+  section {
+    padding: 80px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas na grelha */
+    gap: 60px 30px; /* Espaçamento entre linhas e colunas */
+  }
+  
+  .card {
+    text-align: center; /* Centraliza o conteúdo no cartão */
+  }
+  
+  .card img {
+    width: 295px; /* Largura fixa da imagem */
+    border-radius: 20px; /* Cantos arredondados */
+    transition: transform 0.3s ease; /* Animação suave ao passar o cursor */
+  }
+  
+  .card .product-name {
+    margin: 16px 0 6px; /* Margem em cima e em baixo */
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .card .product-price {
+    margin: 0; /* Sem margem */
+    font-size: 24px;
+    font-weight: 400;
+    transition: color 0.3s ease; /* Animação suave da cor */
+  }
+  
+  /* Interações */
+  .card img:hover {
+    transform: scale(1.05); /* Leve aumento da imagem ao passar o cursor */
+  }
+  
+  .card img:hover + .product-name + .product-price {
+    color: #3563E9; /* Preço azul quando o cursor está sobre a imagem */
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .grid {
+      grid-template-columns: 1fr; /* Uma coluna para mobile */
+      gap: 40px; /* Espaçamento menor para dispositivos móveis */
+    }
+  }
+  
